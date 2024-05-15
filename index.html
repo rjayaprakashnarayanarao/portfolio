@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/68d572b50a.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/favicon_io/android-chrome-192x192.png" type="images/favicon" />
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo_black.png" class="logo" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Jaya <br> Prakash</span> From India</h1>
+      </div>
+    </div>
+  </div>
+<!-- about-section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/background/t4.jpg" alt="img">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nemo tenetur, soluta accusamus architecto facilis minus nam? Iusto animi iure voluptatem nam rerum dignissimos repudiandae vel nobis, sequi nisi? Accusamus.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Technical Skills</span><br>C-Programing, Java, Python, HTML, CSS, JavaScript, Penitration Testing, Web Development, Ethical Hacking, Network Security, Network Scanning, Web application Hacking, Password cracking, Social engineering, Wireless hacking, Responsive web pages.</li>
+              <li><span>Soft Skills</span><br>Leadership, Interpersonal Skills, Adaptability, Time Management, Attention to details.</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Fresher</span><br>Looking for jobs Based on Web Development or Ethical Hacking</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021-Current</span><br>B.tech(CSE) from NECN Nellore</li>
+              <li><span>2019-2021</span><br>Inter(MPC) from Narayana Junior College Nellore</li>
+              <li><span>2018</span><br>SSC from Ratnam High School Nellore</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services -->
+  <div id="services">
+    <div class="container">
+
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Developer</h2>
+          <p>Front-end developer with expertise in HTML, CSS, and JavaScript, dedicated to crafting user-friendly and
+            visually appealing websites. A detail-oriented professional committed to delivering seamless and
+            responsive web experiences</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-ubuntu"></i>
+          <h2>Ethical Hacker</h2>
+          <p>professional ethical hacker with the skills of penetration testing, cybersecurity, and network security. I learned about hacking fundamentals, Linux commands, network scanning, web application hacking, password cracking, wireless hacking, social engineering, cryptography, and more.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/projects/work-1.webp" alt="img">
+          <div class="layer">
+            <h3>Name of the Project</h3>
+            <p>Description about the project with the link</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/projects/work-1.webp" alt="img">
+          <div class="layer">
+            <h3>Name of the Project</h3>
+            <p>Description about the project with the link</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/projects/work-1.webp" alt="img">
+          <div class="layer">
+            <h3>Name of the Project</h3>
+            <p>Description about the project with the link</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-arrow-up-right-from-square"></i>rjpnrao2004@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>9390866948</p>
+          <div class="social-icons">
+            <a id="linkedin" href="https://www.linkedin.com/in/rjpnarayanarao/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/jay_____0009/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a id="facebook" href="https://www.facebook.com/rjpnarayana.rao?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a id="snapchat" href="https://www.snapchat.com/add/rjp_009?share_id=_Bes9jetcc4&locale=en-IN" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+          </div>
+          <a href="images/JayaPrakash_CV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your  Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" id="" rows="6" placeholder=Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p><i class="fa-regular fa-copyright"></i> Copyright 2024. All Rights Reserved By JProjects.</p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var side = document.getElementById("sidemenu");
+    function openmenu(){
+      side.style.right = "0";
+    }
+    function closemenu(){
+      side.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZWQf88dIgAaux9Zm9GBbE5JsmgJEqe1AooYUnMDacPXP53T1YFAO2tAr26v8CkFRf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
