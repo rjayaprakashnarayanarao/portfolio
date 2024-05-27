@@ -184,6 +184,7 @@ nav ul li a:hover::after{
 }
 .work img{
   width: 100%;
+  height: 100%;
   border-radius: 10px;
   display: block;
   transition: transform 0.45s;
@@ -211,16 +212,25 @@ nav ul li a:hover::after{
   margin-bottom: 20px;
 }
 .layer a{
-  margin-top: 20px;
+  margin-top: 15px;
   color: #ff004f;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 60px;
   background: #fff;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   text-align: center;
+}
+.link-container{
+  display: flex;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 20px;
+}
+.link-container a{
+  margin-right: 20px;
 }
 .work:hover img{
   transform: scale(1.1);
