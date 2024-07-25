@@ -6,7 +6,10 @@
   <title>Personal Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/68d572b50a.js" crossorigin="anonymous"></script>
-  <link rel="icon" href="images/favicon_io/apple-touch-icon.png" type="images/favicon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon_io/site.webmanifest">
 </head>
 <body>
   <div id="header">
@@ -70,9 +73,9 @@
   <!-- projects -->
   <div id="portfolio">
     <div class="container">
-      <h1 class="sub-title">My Work</h1>
+      <h1 class="sub-title js-my-work">My Work</h1>
       <div class="work-list js-work-list"><!-- projects will generate using js --></div>
-      <a href="#" class="btn">See More</a>
+      <a class="btn js-see-more">See More</a>
     </div>
   </div>
   <!-- contact -->
@@ -109,6 +112,7 @@
 
   <script src="data/projects.js"></script>
   <script src="script/home.js"></script>
+
   <script src="script/script-1.js"></script>
   <script src="script/script-2.js"></script>
   <script src="script/script-3.js"></script>
