@@ -3,22 +3,22 @@ const projects = [
     name: "Basic game",
     description: "It is a classic hand game this project demonstrates the development of a basic yet engaging Rock Paper Scissors game using HTML, CSS, and JS.",
     image: "images/projects/project-2.png",
-    link: "https://jayaprakashnarayanarao.github.io/rock-paper-scissors-game/",
-    gitLink: "https://github.com/JayaPrakashNarayanaRao/rock-paper-scissors-game/"
+    link: "https://rjayaprakashnarayanarao.github.io/rock-paper-scissors-game/",
+    gitLink: "https://github.com/rjayaprakashnarayanarao/rock-paper-scissors-game"
   },
   {
     name: "Streammer",
     description: "video streaming website built with HTML, CSS, and JavaScript! Featuring a sleek design, responsive layout, and smooth playback for an enhanced viewing experience.",
     image: "images/projects/project-3.jpg",
-    link: "https://jayaprakashnarayanarao.github.io/video-streaming-website/",
-    gitLink: "https://github.com/JayaPrakashNarayanaRao/video-streaming-website"
+    link: "https://rjayaprakashnarayanarao.github.io/video-streaming-website/",
+    gitLink: "https://github.com/rjayaprakashnarayanarao/video-streaming-website"
   },
   {
     name: "BuyIt",
     description: "responsive e-commerce website using HTML, CSS, and JavaScript! Features include dynamic UI, modern design, and seamless user experience.",
     image: "images/projects/project-4.jpg",
-    link: "https://jayaprakashnarayanarao.github.io/e-commerce-website/",
-    gitLink: "https://github.com/JayaPrakashNarayanaRao/e-commerce-website"
+    link: "https://rjayaprakashnarayanarao.github.io/e-commerce-website/",
+    gitLink: "https://github.com/rjayaprakashnarayanarao/e-commerce-website"
   },
   {
     name: "Colloge Website",
